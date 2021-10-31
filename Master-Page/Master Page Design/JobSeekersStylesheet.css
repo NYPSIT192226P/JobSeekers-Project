@@ -1,0 +1,99 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.containerModified {
+    margin: 0px 20px;
+}
+
+.navBarColour {
+    background-color: #6B89FF;
+    border: none;
+}
+
+.jobSeekersBranding {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #FFFFFF !important;
+    font-size: 1.5em;
+    transition: 0.2s;
+}
+
+.navList li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #FFFFFF !important;
+    transition: 0.2s;
+}
+
+.jobSeekersBranding:hover, .navList li a:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.navAccountOptionsGrp {
+    float: right !important;
+    display: flex !important;
+}
+
+.di_navsearch {
+    margin-right: 50px;
+}
+
+#tb_navsearch {
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    width: 270px;
+    padding: 5px;
+    position: relative;
+}
+
+#btn_navsearch {
+    position: relative;
+    border: none;
+    left: -4px;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    background-image: url("/Assets/FontAwesome/5.15.1/svgs/solid/search_blue.svg");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+}
+
+.ah_employers {
+    padding: 10px !important;
+    border-radius: 5px;
+    border: 1.5px solid #ffffff;
+    max-height: 41px;
+    position: relative !important;
+    top: 4px;
+    margin-left: 10px;
+}
+
+.di_navaccountdropdown {
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .navAccountOptionsGrp {
+        float: none !important;
+        display: block !important;
+    }
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30px;
+}

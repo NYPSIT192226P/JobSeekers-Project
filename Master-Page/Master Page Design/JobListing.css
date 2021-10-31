@@ -1,0 +1,43 @@
+﻿body {
+}
+#FilterBox {
+    border: 1px solid black;
+    margin: 20px;
+    padding-left: 10px;
+}
+.Filter2column {
+    margin: 40px;
+    margin-bottom: 20px;
+}
+#JobListingBox {
+    border: 1px solid black;
+    padding-bottom: 130px;
+    margin: 20px;
+    padding-left: 10px;
+}
+#JobImage {
+    height: 100px;
+    width: 130px;
+    padding:10px 10px 0px 10px;
+}
+#Vacancy {
+    padding-left: 10px;
+}
+#ListingColumn1 {
+    float: left;
+    width: 200px;
+    width: 200px;
+}
+#ListingColumn2 {
+    float:left;
+    width:300px;
+    padding-left:20px;
+    margin-bottom:100px;
+}
+#ListingColumn3 {
+    float: left;
+    margin-bottom: 100px;
+    padding-left:120px;
+}
+#SkillList {
+}

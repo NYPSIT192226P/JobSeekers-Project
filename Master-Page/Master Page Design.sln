@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Master Page Design", "Master Page Design\Master Page Design.csproj", "{DF6A8D9B-6AEB-4875-BA5A-277156C41D8B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2E2E4E47-8174-4177-9C11-F1275A8B25ED} = {2E2E4E47-8174-4177-9C11-F1275A8B25ED}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDBService", "MyDBService\MyDBService.csproj", "{2E2E4E47-8174-4177-9C11-F1275A8B25ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF6A8D9B-6AEB-4875-BA5A-277156C41D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6A8D9B-6AEB-4875-BA5A-277156C41D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6A8D9B-6AEB-4875-BA5A-277156C41D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6A8D9B-6AEB-4875-BA5A-277156C41D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2E4E47-8174-4177-9C11-F1275A8B25ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2E4E47-8174-4177-9C11-F1275A8B25ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2E4E47-8174-4177-9C11-F1275A8B25ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2E4E47-8174-4177-9C11-F1275A8B25ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {809798FF-03E1-46E9-8A18-ED6FBE217946}
+	EndGlobalSection
+EndGlobal

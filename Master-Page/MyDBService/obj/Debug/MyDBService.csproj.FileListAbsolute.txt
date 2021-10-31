@@ -1,0 +1,6 @@
+C:\Users\fudom\source\repos\Master-Page\MyDBService\obj\Debug\MyDBService.csproj.CoreCompileInputs.cache
+C:\Users\fudom\source\repos\Master-Page\MyDBService\bin\Debug\MyDBService.dll.config
+C:\Users\fudom\source\repos\Master-Page\MyDBService\bin\Debug\MyDBService.dll
+C:\Users\fudom\source\repos\Master-Page\MyDBService\bin\Debug\MyDBService.pdb
+C:\Users\fudom\source\repos\Master-Page\MyDBService\obj\Debug\MyDBService.dll
+C:\Users\fudom\source\repos\Master-Page\MyDBService\obj\Debug\MyDBService.pdb

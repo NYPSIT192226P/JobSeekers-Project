@@ -1,0 +1,86 @@
+﻿#jobTitle {
+    font-weight: bold;
+}
+#JobDesc {
+    font-weight: bold;
+}
+#skills {
+    font-weight: bold;
+}
+#NoOfJobs {
+    font-weight: bold;
+}
+#CompanyPic {
+    font-weight: bold;
+}
+#jobExperience {
+    font-weight: bold;
+}
+#jobSalary {
+    font-weight: bold;
+}
+#jobOverview {
+    font-weight: bold;
+}
+#BasicBox {
+    visibility: visible;
+}
+#AdvanceInfoBox {
+    visibility: hidden;
+}
+#RespobsibilitiesBox {
+    visibility: hidden;
+}
+#RequirementsBox {
+    visibility: hidden;
+}
+#FinalInfoBox {
+    visibility: hidden;
+}
+#bold {
+    font-weight: bold;
+    font-size:20px;
+}
+#bold2 {
+    font-weight: bold;
+    font-size:20px;
+}
+.ListingBox {
+    border: 1px solid black;
+    box-shadow: 0px 4px 8px 0px black;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 30px;
+    display: block;
+    overflow: auto;
+}
+.ProgressBar {
+    border: 1px solid black;
+    box-shadow: 0px 4px 8px 0px black;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px;
+    display: block;
+    background-color: #6495ED;
+    overflow: hidden;
+    position:center;
+    left: 470px;
+}
+
+.InputRow {
+    width: 100%;
+}
+
+.ProgessColor {
+    color: red
+}
+
+.ButtonLink {
+    border-radius: 50%;
+    font-size: 27px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:75px;
+}

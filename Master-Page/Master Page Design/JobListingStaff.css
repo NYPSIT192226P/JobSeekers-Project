@@ -1,0 +1,29 @@
+﻿#ListingBox, #JobListingBox {
+    border: 1px solid black;
+    box-shadow: 0px 4px 8px 0px black;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+#SortText {
+    display: inline;
+    padding-left:25px;
+    font-size:20px;
+}
+
+#Searchbtn {
+    margin-left: 10px;
+    background: white;
+    border-color: #3399FF;
+    color: #3399FF;
+}
+#CreateListingBtn {
+    float: right;
+    background: #3399FF;
+    color: white;
+    border-color: #3399FF
+}

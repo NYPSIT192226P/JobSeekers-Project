@@ -1,0 +1,647 @@
+﻿#MainContent_im_profile_headerimage, #MainContent_im_profile_headerimage_edit, #MainContent_im_organisation_profile_headerimage {
+    width: 1000px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 30px 0px 0px 30px;
+}
+
+.di_profilecard {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 1000px;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    top: -20px;
+    left: 10px;
+    padding-bottom: 30px;
+}
+
+#MainContent_im_profilecard_profilepicture, #MainContent_im_profilecard_profilepicture_edit, #MainContent_im_organisation_profilecard_logo {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-top: -80px;
+    margin-left: 30px;
+    border-radius: 50%;
+    border: 3px solid #6b89ff;
+    background-color: #6b89ff;
+}
+
+#MainContent_lb_profilecard_name, #MainContent_lb_profilecard_name_edit, #MainContent_lb_organisation_profilecard_name {
+    font-weight: 800;
+    font-size: 2em;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.lb_profilecard_idverified {
+    font-weight: 600;
+    background-color: #5be381;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 1.0em;
+    position: relative;
+    top: -5px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.lb_profilecard_idverified_sg {
+    background-color: #F8DBEA;
+    color: #ed007b;
+}
+
+.lb_profilecard_idverified_pr {
+    background-color: #adcff0;
+    color: #007af0;
+}
+
+.lb_profilecard_idverified_wp {
+    background-color: #C9F9DF;
+    color: #20b363;
+}
+
+.di_profilecard_namerow {
+    display: flex;
+}
+
+.di_profilecard_changes {
+    display: flex;
+    margin-left: auto;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.ah_profilecard_cancelchanges {
+    color: #6b89ff;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+#MainContent_bt_profilecard_editprofile, #MainContent_bt_profilecard_savechanges, #MainContent_bt_organisation_profilecard_editprofile {
+    margin-left: auto;
+    margin-right: 30px;
+    padding: 0px 20px !important;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    background-color: #6b89ff;
+    color: #ffffff;
+    outline: none;
+}
+
+#MainContent_bt_profilecard_savechanges {
+    margin-right: 0px;
+}
+
+.di_profilecard_headlinerow {
+    display: flex;
+}
+
+#MainContent_lb_profilecard_headline, #MainContent_tb_profilecard_headline_edit, #MainContent_lb_organisation_profilecard_headline {
+    margin-left: 30px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+    #MainContent_tb_profilecard_headline_edit {
+        border: 0.5px solid #000000;
+    }
+
+
+    #MainContent_lb_profilecard_availability, #MainContent_lb_profilecard_availability_edit {
+        margin: 10px 30px 0px auto;
+        font-weight: 500;
+    }
+
+#MainContent_lb_profilecard_availability_edit {
+    position: relative;
+    top: 20px;
+}
+
+.ah_profilecard_availability_settoprivate {
+    color: #6b89ff;
+    text-decoration: underline;
+}
+
+#MainContent_lb_profilecard_topskills, #MainContent_lb_profilecard_topskills_edit, #MainContent_lb_organisation_profilecard_website, #MainContent_lb_organisation_profilecard_employees, #MainContent_lb_organisation_profilecard_headquarters {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.ah_organisation_profilecard_website_link, #MainContent_lb_organisation_profilecard_employees_count, #MainContent_lb_organisation_profilecard_headquarters_location {
+    margin-left: 30px;
+}
+
+.di_profilecard_topskills {
+    margin: 10px 0px 0px 30px;
+}
+
+.di_profilecard_topskills span {
+    padding: 5px 10px;
+    background-color: #6b89ff;
+    color: #ffffff;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.di_profilecard_topskills a {
+    color: #6b89ff;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+#MainContent_lb_profilecard_contact, #MainContent_lb_profilecard_contact_edit {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.di_profilecard_contact {
+    margin: 10px 0px 0px 30px;
+}
+
+.di_profile_sections {
+    max-width: 1000px;
+}
+
+.di_experience, .di_education, .di_certificationsandlicences, .di_courses {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+}
+
+.di_education, .di_certificationsandlicences, .di_courses {
+    margin-top: 50px;
+}
+
+.di_experience_add, .di_education_add, .di_certificationsandlicences_add, .di_courses_add {
+    border: 2px solid #6b89ff;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.di_experience_add:hover, .di_education_add:hover, .di_certificationsandlicences_add:hover, .di_courses_add:hover {
+    transition: 0.3s;
+    background-color: #6b89ff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.di_experience_add:hover span, .di_education_add:hover span, .di_certificationsandlicences_add:hover span, .di_courses_add:hover span {
+    color: #ffffff;
+}
+
+.lb_experience_add_addexperience, .lb_education_add_addeducation, .lb_certificationsandlicences_add_addcertificationsandlicences, .lb_courses_add_addcourses {
+    color: #6b89ff;
+    font-weight: bold;
+}
+
+#MainContent_lb_experience_experience, #MainContent_lb_education_education, #MainContent_lb_certificationsandlicences_certificationsandlicences, #MainContent_lb_courses_courses, #MainContent_lb_experience_experience_edit, #MainContent_lb_education_education_edit, #MainContent_lb_certificationsandlicences_certificationsandlicences_edit, #MainContent_lb_courses_courses_edit {
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+.di_experience_item, .di_education_item, .di_certificationsandlicences_item, .di_courses_item {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.im_experience_item_logo, .im_education_item_logo, .im_certificationsandlicences_item_logo, .im_courses_item_logo {
+    width: 70px;
+    height: 70px;
+}
+
+.di_experience_item_details, .di_education_item_details, .di_certificationsandlicences_item_details, .di_courses_item_details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.lb_experience_item_details_title, .lb_education_item_details_title, .lb_certificationsandlicences_item_details_title, .lb_courses_item_details_title {
+    font-size: 1.1em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.lb_experience_item_details_title:hover, .lb_education_item_details_title:hover, .lb_certificationsandlicences_item_details_title:hover, .lb_courses_item_details_title:hover {
+    transition: 0.3s;
+    color: #6b89ff;
+}
+
+.lb_experience_item_details_nomenclature {
+    font-weight: 500;
+}
+
+.lb_x_item_details_verified {
+    font-weight: 600;
+    background-color: #5be381;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 0.7em;
+    position: relative;
+    top: -1px;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+.lb_certificationsandlicences_item_details_validity_validfrom, .lb_courses_item_details_completion_completedon {
+    font-weight: 500;
+}
+
+.lb_courses_item_details_coursecompleted {
+    font-weight: 600;
+    background-color: #6b89ff;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 0.7em;
+    position: relative;
+    top: -1px;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+.lb_certificationsandlicences_item_details_issuedbyjobseekers {
+    font-weight: 600;
+    background-color: #6b89ff;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 0.7em;
+    position: relative;
+    top: -1px;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+.padding30 {
+    min-height: 30px;
+}
+
+.i_profilecard_item_edit {
+    margin: 0px 10px 0px auto;
+    color: #6b89ff;
+}
+
+.i_profilecard_item_delete {
+    margin: 0px 30px 0px 0px;
+    color: #d93025;
+}
+
+
+.di_education_add_afterclick, .di_certificationsandlicences_add_afterclick {
+    display: none;
+}
+
+.di_education_add_afterclick_item, .di_certificationsandlicences_add_afterclick_item {
+    border: 2px solid #6b89ff;
+    width: 160px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 0.3s;
+    padding: 10px;
+    font-weight: 500;
+    color: #6b89ff;
+}
+
+.di_education_add_afterclick_item:hover, .di_certificationsandlicences_add_afterclick_item:hover {
+    transition: 0.3s;
+    background-color: #6b89ff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.di_certificationsandlicences_item_hide {
+    margin: 0px 30px 0px auto;
+    align-items: center;
+    font-weight: 500;
+    color: #6b89ff;
+}
+
+.di_courses_item_hide {
+    margin: 0px 30px 0px auto;
+    align-items: center;
+    font-weight: 500;
+    color: #6b89ff;
+}
+
+.di_certificationsandlicences_item_hide span {
+    margin-right: 20px;
+}
+
+.di_courses_item_hide span {
+    margin-right: 20px;
+}
+
+/* MyOrganisation Specific CSS */
+
+.di_organisation_profile_nav {
+    display: flex;
+    margin-left: 60px;
+    color: #6b89ff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+}
+
+.di_organisation_profile_nav div {
+    padding: 10px 20px;
+}
+
+#di_organisation_profile_nav_selected {
+    border: 1px solid #e0e0e0;
+    border-radius: 7px 7px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-weight: bold;
+}
+
+.di_organisation_profile_reviewcontrols, .di_organisation_profile_reviews {
+    width: 940px;
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px 0px 0px 60px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.di_organisation_profile_reviewcontrols {
+    font-family: Montserrat, sans-serif;
+}
+
+.di_organisation_profile_reviewcontrols_search {
+    display: flex;
+}
+
+#MainContent_lb_organisation_profile_reviewcontrols_searchbar {
+    height: 43px;
+    position: relative;
+    top: -1px;
+    border-radius: 5px;
+    min-width: 372px;
+    border: none;
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 5px;
+}
+
+#MainContent_bt_organisation_profile_reviewcontrols_searchbutton, #MainContent_bt_organisation_profile_reviewcontrols_writereview {
+    background-image: url("/Assets/FontAwesome/5.15.1/svgs/solid/search-white.svg");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 13px;
+    background-position-y: center;
+    background-color: #6b89ff;
+    border: none;
+    color: #ffffff;
+    padding: 13px 20px 10px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+    margin-left: 10px;
+}
+
+#MainContent_bt_organisation_profile_reviewcontrols_writereview {
+    background-image: url("/Assets/FontAwesome/5.15.1/svgs/solid/pen-white.svg");
+    position: relative;
+    top: 40px;
+    left: 230px;
+}
+
+.di_organisation_profile_reviewcontrols_filter, .di_organisation_profile_reviewcontrols_sort {
+    display: flex;
+    align-items: center;
+}
+
+.di_organisation_profile_reviewcontrols_filter select, .di_organisation_profile_reviewcontrols_sort select {
+    width: 100px;
+    margin: 20px 10px 0px 0px;
+}
+
+.lb_organisation_profile_reviewcontrols_filter, .lb_organisation_profile_reviewcontrols_sort {
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+}
+
+.lb_organisation_profile_reviewcontrols_filter, .lb_organisation_profile_reviewcontrols_sort {
+    margin-right: 10px;
+}
+
+.di_organisation_profile_reviews_item {
+    color: #6b89ff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    display: flex;
+}
+
+.di_organisation_profile_reviews_item_stars {
+    display: flex;
+}
+
+.lb_organisation_profile_reviews_item_summary_status, .lb_organisation_profile_reviews_item_summary_location {
+    color: #000000;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.lb_organisation_profile_reviews_item_summary_status_status, .lb_organisation_profile_reviews_item_summary_location_location {
+    color: #000000;
+}
+
+.di_organisation_profile_reviews_item_main {
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    margin: -5px 0px 0px 40px;
+}
+
+.lb_organisation_profile_reviews_item_main_title {
+    color: #6b89ff;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.lb_organisation_profile_reviews_item_main_detailed_pros, .lb_organisation_profile_reviews_item_main_detailed_cons, .lb_organisation_profile_reviews_item_main_detailed_advice {
+    font-weight: bold;
+    font-size: 1.2em;
+    display: block;
+    margin-top: 20px;
+}
+
+.consentBtnGrp {
+    display: flex;
+    margin: 40px 0px;
+}
+
+.addMsfBtnGrp {
+    display: flex;
+    margin-top: 30px;
+}
+
+.consentBtnCancel, .consentBtnConsent, .addMsfCancel, .addMsfAdd {
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.qualificationDelete {
+    color: #e34242;
+    margin: 10px auto 0px 0px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.qualificationDelete:hover {
+    transition: 0.3s;
+    color: #6b89ff;
+    text-decoration: none;
+}
+
+.consentBtnCancel:hover, .consentBtnConsent:hover, .addMsfCancel:hover, .addMsfAdd:hover {
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+.consentBtnCancel, .addMsfCancel {
+    background-color: white;
+    color: #6b89ff;
+}
+
+.consentBtnConsent, .addMsfAdd {
+    background-color: #6b89ff;
+    color: white;
+    margin-left: auto;
+}
+
+.academicGrp, .certificationGrp {
+    display: flex;
+    flex-direction: column;
+}
+
+.academicItem, .certificationItem, .licenceItem {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.inDbOverlay {
+    position: absolute;
+
+}
+
+.fieldGrp {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+}
+
+.educationDetailItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.academicItemDescLabel, .academicItemIssuerLabel, .academicItemStartDateLabel, .academicItemAttainedDateLabel, .certificationItemDescLabel, .certificationItemIssuerLabel, .certificationItemValidFromLabel, .certificationItemValidTillLabel, .licenceItemDescLabel, .licenceItemIssuerLabel, .licenceItemIssueDateLabel, .licenceItemExpiryDateLabel, .educationDetailItemLabel {
+    font-weight: bold;
+}
+
+.academicItemDesc, .academicItemIssuer, .academicItemStartDate, .academicItemAttainedDate, .certificationItemDesc, .certificationItemIssuer, .certificationItemValidFrom, .certificationItemValidTill, .licenceItemDesc, .licenceItemIssuer, .licenceItemIssueDate, .licenceItemExpiryDate, .educationDetailItemInfo {
+    font-size: 1.1em;
+}
+
+.academicItemVerified, .certificationItemVerified, .licenceItemVerified {
+    position: absolute;
+    right: 25px;
+    font-weight: 600;
+    background-color: #5be381;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 0.7em;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+.academicItemInSystem {
+    position: absolute;
+    right: 125px;
+    font-weight: 600;
+    background-color: #6b89ff;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 0.7em;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+.academicItemCannotVerify {
+    position: absolute;
+    right: 25px;
+    font-weight: 600;
+    background-color: #e34242;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 0.7em;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+#openCertsUploadContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#openCertsUpload {
+    margin: 30px 0px 30px 70px;
+}
+
+/* Animations */
+.fadeIn {
+    animation: fadeIn ease 0.2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeOut {
+    animation: fadeOut ease 0.2s;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
